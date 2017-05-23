@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    tools:context="com.assignment.nv.novopayassignment.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linear"
+        android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:layout_marginLeft="10dp"
+        android:inputType="number|numberDecimal"
+        android:digits="-0123456789."
+        android:singleLine="true"
+        android:maxLength="6"
+        android:id="@+id/et_latitude"
+        android:hint="@string/latitude"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:digits="-0123456789."
+        android:singleLine="true"
+        android:maxLength="6"
+        android:inputType="number|numberSigned|numberDecimal"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/et_longitude"
+        android:hint="@string/longitude"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:layout_marginTop="15dp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:background="#0096C5"
+        android:id="@+id/btn_submit"/>
+
+    </LinearLayout>
+</LinearLayout>

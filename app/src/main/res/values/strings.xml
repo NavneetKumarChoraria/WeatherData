@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Weather</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="lat_long">Lat-Long:</string>
+    <string name="humidity">Humidity:</string>
+    <string name="temprature">Temperature:</string>
+    <string name="sunset">Sunset:</string>
+    <string name="sunrise">Sunrise:</string>
+    <string name="city">City:</string>
+    <string name="country">Country:</string>
+    <string name="latitude">Enter Latitude</string>
+    <string name="longitude">Enter Longitude</string>
+    <string name="submit">Submit</string>
+</resources>
